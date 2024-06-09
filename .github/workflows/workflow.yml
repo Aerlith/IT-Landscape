@@ -23,7 +23,7 @@ jobs:
         uses: docker/setup-buildx-action@v1
 
       - name: Build Docker Image
-        run: docker build -t ***aanpassen***/github:latest -f Dockerfile .
+        run: docker build -t evilbyte/getting-started:latest -f Dockerfile .
 
       - name: Push Docker Image
-        run: docker push ***aanpassen***/github:latest
+        run: docker push evilbyte/getting-started:latest
